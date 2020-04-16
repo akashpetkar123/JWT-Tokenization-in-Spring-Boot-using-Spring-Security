@@ -4,10 +4,13 @@ JWT Token is used for Authentication and Authorization
 For safe and secure authetication and authoriation betweeen two web-services JWT is mostly used.
 This is the code where you can access the services with the valid JWT token.
 There is a jar which i have generated of the project and uploaded with the project, you can download it and check how it works.
+
 -> Double click on the jar and open it with the Java SE Library
 -> Now open the postman and do a post request as below
-http://localhost:9090/authenticate
+h
+ttp://localhost:9090/authenticate
 and headers parameter should contain as 
+
 Key                       Value
 ===                       =====
 Content-Type              application/json
@@ -35,6 +38,5 @@ after GET request it will give a respose as:-
 HELLO WORLD
 
 This is a example about how you can develop security for services
-
 
 I would like to thank Koushik from Java brains for this wonderful knowledge.
