@@ -8,7 +8,6 @@ There is a jar which i have generated of the project and uploaded with the proje
 -> Now open the postman and do a post request as below
 http://localhost:9090/authenticate
 and headers parameter should contain as 
-
 Key                       Value
 ===                       =====
 Content-Type              application/json
