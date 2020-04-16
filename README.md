@@ -11,17 +11,18 @@ There is a jar which i have generated of the project and uploaded with the proje
 http://localhost:9090/authenticate
 and headers parameter should contain as 
 
-Key                       Value
+Key         =              Value
 
 ===                       =====
 
-Content-Type              application/json
+Content-Type=              application/json
 
-username                  akash
+username    =              akash
 
-password                  akash
+password    =              akash
 
 it will give a respose as:-
+
 {
     "jwt": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJha2FzaCIsImV4cCI6MTU4NzA1MDgyMCwiaWF0IjoxNTg3MDE0ODIwfQ.bHrMeAZAEzly-aR1h-IXSRORySaq8FnAh2fy8Ia3ujY"
 }
@@ -32,13 +33,13 @@ then you need to pass that token for authorization
 you need to pass the jwt token with the given URL below
 http://localhost:9090/hello as a GET request send along headers parameter
 
-Key                       Value
+Key         =              Value
 
 ===                       =====
 
-Content-Type              application/json
+Content-Type=              application/json
 
-Authorization             auth=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJha2FzaCIsImV4cCI6MTU4NzA1MDgyMCwiaWF0IjoxNTg3MDE0ODIwfQ.bHrMeAZAEzly-aR1h-IXSRORySaq8FnAh2fy8Ia3ujY
+Authorization=             auth=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJha2FzaCIsImV4cCI6MTU4NzA1MDgyMCwiaWF0IjoxNTg3MDE0ODIwfQ.bHrMeAZAEzly-aR1h-IXSRORySaq8FnAh2fy8Ia3ujY
 
 here "auth" is the identifier for the token you can give anthing you want
 after GET request it will give a respose as:-
