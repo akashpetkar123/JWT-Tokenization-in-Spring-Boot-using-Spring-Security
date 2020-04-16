@@ -6,9 +6,9 @@ This is the code where you can access the services with the valid JWT token.
 There is a jar which i have generated of the project and uploaded with the project, you can download it and check how it works.
 
 -> Double click on the jar and open it with the Java SE Library
+
 -> Now open the postman and do a post request as below
-h
-ttp://localhost:9090/authenticate
+http://localhost:9090/authenticate
 and headers parameter should contain as 
 
 Key                       Value
