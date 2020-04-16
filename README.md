@@ -39,7 +39,7 @@ Key         =              Value
 
 Content-Type=              application/json
 
-Authorization=             auth=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJha2FzaCIsImV4cCI6MTU4NzA1MDgyMCwiaWF0IjoxNTg3MDE0ODIwfQ.bHrMeAZAEzly-aR1h-IXSRORySaq8FnAh2fy8Ia3ujY
+Authorization = auth=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJha2FzaCIsImV4cCI6MTU4NzA1MDgyMCwiaWF0IjoxNTg3MDE0ODIwfQ.bHrMeAZAEzly-aR1h-IXSRORySaq8FnAh2fy8Ia3ujY
 
 here "auth" is the identifier for the token you can give anthing you want
 after GET request it will give a respose as:-
