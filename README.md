@@ -45,6 +45,4 @@ here "auth" is the identifier for the token you can give anthing you want
 after GET request it will give a respose as:-
 HELLO WORLD
 
-This is a example about how you can develop security for services
-
-I would like to thank Koushik from Java brains for this wonderful knowledge.
+This is a example about how you can develop security for services.
